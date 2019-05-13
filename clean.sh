@@ -64,7 +64,7 @@ do
     echo
 done
 
-if [[ "$bloweraway" == 'y' ]]
+if [[ "$bloweraway" == 'y' || "$bloweraway" == 'Y' ]]
 then
     for drive in $(cat ./log/new-drives)
     do
