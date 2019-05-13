@@ -41,7 +41,7 @@ Finally we must set USB/peripheral drives to not be automounted by the system. G
      * Edit -> Preferences -> Media Handling -> Uncheck "Automatically mount removeable media when inserted and on startup"
  * Ubuntu, Fedora, or Gnome based - 
      * Install `dconf-editor`
-         * Ubuntu: `sudo apt-get install dconf-editor`
+         * Ubuntu: `sudo apt install dconf-editor`
          * CentOS, Fedora, Red Hat: `sudo yum install dconf-editor`
      * org -> <DESKTOP_MANAGER> -> desktop -> media-handling
 
